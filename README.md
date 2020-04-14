@@ -57,10 +57,18 @@ Example json output:
 - [x] implement timer
 - [x] read user input
 - [x] 'pause' functionality
-- [ ] summary of session
+- [x] summary of session
 - [ ] better calculation of effectiveness (ex -10 min for not taking a break per 60 minutes)
+    - -10 min for not taking a break per 60 miutes
+	- -5 min per break over 1 per 60 minutes
+	- break-length should also count. Only breaks over 5 minutes count negative toward 
+	  effectiveness, unless they are part of the 1 break that should be in every 50 minutes.
 - [ ] session filename, provide file-name as optional parameter
 - [ ] write to file
 - [ ] read from file
 - [ ] create binary executable
 - [ ] add rating functionality
+
+**Other features that would be cool to implement:**
+- [ ] live update of info about timer-state
+- [ ] command memory (up-arrow for last command)

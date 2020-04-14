@@ -1,3 +1,5 @@
+from utils import truncate
+
 class Session:
     """ 
     Storage object for each work-log entry/session. For each pause, a penalty
@@ -19,6 +21,10 @@ class Session:
         string = ('Date: \t{}\n'
                   'Hours:\t{}\n'
                   'Pauses:\t{}\n'
-                  'Effectiveness:\t{}\n'
+                  'Effectiveness:\t{}%\n'
                   'Message:\n{}\n')
-        return string.format(self.date, self.hours_worked, self.pauses, self.effectiveness(), self.description)
+        return string.format(self.date,
+                             truncate(self.hours_worked, 2),
+                             self.pauses,
+                             truncate(self.effectiveness() * 100, 2),
+                             self.description)
