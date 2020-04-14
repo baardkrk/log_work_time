@@ -44,8 +44,8 @@ Example json output:
 ```
 
 ### TODO
-- [ ] implement timer
-- [ ] read user input
-- [ ] 'pause' functionality
+- [x] implement timer
+- [x] read user input
+- [x] 'pause' functionality
 - [ ] edit session
 - [ ] session filename, provide file-name as optional parameter
