@@ -2,9 +2,8 @@ from utils import truncate
 
 class Session:
     """ 
-    Storage object for each work-log entry/session. For each pause, a penalty
-    of 5 minutes is added to the effectivity. This is to account for lost 
-    concentration.
+    Storage object for each work-log entry/session. 
+    The effectiveness function is really not finished.
     """
     def __init__(self, date, hours_worked, pauses, description):
         self.date = date

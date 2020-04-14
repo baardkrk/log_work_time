@@ -59,10 +59,12 @@ Example json output:
 - [x] 'pause' functionality
 - [x] summary of session
 - [ ] better calculation of effectiveness (ex -10 min for not taking a break per 60 minutes)
-    - -10 min for not taking a break per 60 miutes
-	- -5 min per break over 1 per 60 minutes
+    - -10 min for not taking a break per 50 miutes
+	- -5 min per break over 5 minutes per 50 minutes
 	- break-length should also count. Only breaks over 5 minutes count negative toward 
-	  effectiveness, unless they are part of the 1 break that should be in every 50 minutes.
+	  effectiveness, unless they are part of the 10 minute break that should be after every 50 
+	  minutes.
+    - other factors that should count for/against effectiveness
 - [ ] session filename, provide file-name as optional parameter
 - [ ] write to file
 - [ ] read from file
