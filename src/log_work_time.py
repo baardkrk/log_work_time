@@ -1,18 +1,10 @@
 import argparse
 from timer import TimerObject
 from utils import print_underline
-from input_handler import input_handler, print_help
+from input_handler import input_handler
+from action_implementation import print_help
 
 LOG_FILE_NAME = "project_time_worklog.json"
-
-class Session:
-    """ 
-    Storage object for each work-log entry/session 
-    """
-    def __init__(self, date, hours_worked, description):
-        self.date = date
-        self.hours_worked = hours_worked
-        self.description = description
     
 
 def input_loop():

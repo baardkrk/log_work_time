@@ -47,5 +47,8 @@ Example json output:
 - [x] implement timer
 - [x] read user input
 - [x] 'pause' functionality
-- [ ] edit session
+- [ ] summary of session
+- [ ] better calculation of effectiveness (ex -10 min for not taking a break per 60 minutes)
 - [ ] session filename, provide file-name as optional parameter
+- [ ] write to file
+- [ ] read from file
