@@ -52,3 +52,4 @@ Example json output:
 - [ ] session filename, provide file-name as optional parameter
 - [ ] write to file
 - [ ] read from file
+- [ ] create binary executable
