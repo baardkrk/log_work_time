@@ -42,3 +42,10 @@ Example json output:
   "next_project_name": [...]
 }
 ```
+
+### TODO
+- [ ] implement timer
+- [ ] read user input
+- [ ] 'pause' functionality
+- [ ] edit session
+- [ ] session filename, provide file-name as optional parameter
