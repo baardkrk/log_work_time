@@ -2,9 +2,6 @@ import argparse
 from context import Context
 from utils import print_underline
 from input_handler import input_handler, print_help
-
-
-LOG_FILE_NAME = "project_time_worklog.json"
     
 
 def input_loop(context):
@@ -17,7 +14,7 @@ def input_loop(context):
        if (_in == 'q'):
            context.write_to_file()
            stop = True
-
+           
     
 if __name__ == "__main__":
    parser = argparse.ArgumentParser(description='Log work time for a project')

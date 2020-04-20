@@ -13,8 +13,6 @@ $ python3 log_work_time.py <PROJECT NAME> [ENTER]
 $ ... [ENTER]
 Enter a description for this entry:
 > This is my entered description [ENTER]
-Enter a rating (out of 5) for this session:
-> 3.6 [ENTER]
 ```
 The program will give the session a rating based on how many pauses you took while working on it,
 and how you felt about the session afterwards.
@@ -63,6 +61,7 @@ Example json output:
 - [ ] write to file
 - [ ] read from file
 - [ ] create binary executable
+- [ ] re-implement python switch case for `input_handler`
 
 **Other features that would be cool to implement:**
 - [ ] live update of info about timer-state

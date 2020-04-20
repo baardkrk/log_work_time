@@ -21,11 +21,11 @@ class Session:
         
     def __str__(self):
         string = ('Work session for \'{}\' \t{}\n'
-                  'Hours:\t{}\n'
+                  'Time:\t{}\n'
                   'Interruptions:\t{}\n'
-                  'Message:\n"{}"\n')
+                  'Message: "{}"\n')
         return string.format(self.project_name,
                              self.date,
-                             truncate(self.timer.hours(), 2),
+                             self.timer.timestring(),
                              self.timer.stop_count,
                              self.message)

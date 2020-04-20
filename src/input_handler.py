@@ -17,7 +17,7 @@ def end_program(context):
     for session in context.sessions:
         context.sessions[session].end_session()
         print(context.sessions[session])
-        print_underline(9)
+        print_underline(15, '-')
 
 
 def pause(session):

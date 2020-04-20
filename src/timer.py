@@ -43,9 +43,9 @@ class TimerObject:
 
     def hours(self):
         return self.elapsed() / 3600
-    
 
-    def friendly_state_string(self):
+
+    def timestring(self):
         time_unit = 'hours'
         elapsed_time = self.hours()
         if self.elapsed() < 60:
@@ -54,8 +54,12 @@ class TimerObject:
         elif self.minutes() < 60:
             time_unit = 'minutes'
             elapsed_time = self.minutes()
-           
-        friendly_string = 'elapsed: {:.2f} {}\tStop count: {}\tPaused: {}'.format(
-            elapsed_time,
-            time_unit, self.stop_count, self.paused)
+
+        return '{:.2f} {}'.format(elapsed_time, time_unit)
+    
+
+    def friendly_state_string(self):        
+        friendly_string = 'elapsed: {}\tStop count: {}\tPaused: {}'.format(
+            self.timestring(), self.stop_count, self.paused)
+        
         return friendly_string
