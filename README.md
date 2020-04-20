@@ -58,7 +58,7 @@ Example json output:
 - [x] read user input
 - [x] 'pause' functionality
 - [x] summary of session
-- [ ] remove effectiveness
+- [x] remove effectiveness
 - [ ] add change project (pauses the timer for the current session, starts another timer for another)
 - [ ] session filename, provide file-name as optional parameter
 - [ ] write to file
