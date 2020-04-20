@@ -66,3 +66,4 @@ Example json output:
 **Other features that would be cool to implement:**
 - [ ] live update of info about timer-state
 - [ ] command memory (up-arrow for last command)
+- [ ] tab-completion when changing projects
