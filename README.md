@@ -67,3 +67,4 @@ Example json output:
 - [ ] live update of info about timer-state
 - [ ] command memory (up-arrow for last command)
 - [ ] tab-completion when changing projects
+- [ ] list of git commits done during session in the message (requires complete restructuring)
