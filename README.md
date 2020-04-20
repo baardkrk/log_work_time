@@ -58,13 +58,11 @@ Example json output:
 - [x] read user input
 - [x] 'pause' functionality
 - [x] summary of session
-- [x] remove effectiveness
-- [ ] add change project (pauses the timer for the current session, starts another timer for another)
+- [x] add change project (pauses the timer for the current session, starts another timer for another)
 - [ ] session filename, provide file-name as optional parameter
 - [ ] write to file
 - [ ] read from file
 - [ ] create binary executable
-- [ ] add rating functionality
 
 **Other features that would be cool to implement:**
 - [ ] live update of info about timer-state
