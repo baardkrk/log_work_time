@@ -18,9 +18,9 @@ class Context:
         pass
 
 
-    def load_file():
+    def load_file(self):
         pass
 
 
-    def add_current_context_to_file():
+    def add_current_context_to_file(self):
         pass
